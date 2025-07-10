@@ -9,7 +9,6 @@ import { RGBShiftShader } from "three/examples/jsm/Addons.js";
 import * as dat from "dat.gui";
 import { DotScreenShader } from "three/examples/jsm/Addons.js";
 import {CustomPass} from "./CustomPass.js";
-
 import t1 from "../img/4mup.png";
 import t2 from "../img/elec.png";
 import t3 from "../img/idea.png";

@@ -9,8 +9,7 @@
     "glslify-deps": "^1.3.2"
   },
   "scripts": {
-  "predeploy": "parcel index.html",
-  "deploy": "gh-pages -d dist",
-  "homepage": "https://renepruu.github.io/Image_Distortion/"
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
 }
 }
