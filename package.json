@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "dat.gui": "^0.7.9",
+    "three": "^0.178.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "glslify-bundle": "^5.1.1",
+    "glslify-deps": "^1.3.2"
+  },
+  "scripts": {
+  "predeploy": "parcel index.html",
+  "deploy": "gh-pages -d dist",
+  "homepage": "https://renepruu.github.io/Image_Distortion/"
+}
+}
